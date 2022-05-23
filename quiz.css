@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+html {
+    font-size: 100%;
+
+}
+
+.maindiv {
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(206, 92%, 94%);
+}
+
+.innerdiv {
+    width: 40vw;
+    background-color: white;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.innerdiv h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 1rem 0 2rem 0;
+    margin-left: -5rem;
+
+}
+
+.innerdiv li {
+    font-size: 1.3rem;
+    margin-top: 1.3rem;
+    list-style-type: none;
+    margin-left: -5rem;
+
+}
+
+input {
+    cursor: pointer;
+}
+
+#Submit,
+.btn {
+    padding: 0.5rem 1.3rem;
+    outline: none;
+    font-size: 1.1rem;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #74b9ff;
+    margin-top: 2rem;
+
+}
+
+#Submit:hover {
+    background-color: #0984e3;
+}
+
+#Score {
+    background-color: #dfe6e9;
+    margin-top: 2rem;
+    padding: 2rem 2rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+
+}
+
+.Score {
+    display: none;
+}
